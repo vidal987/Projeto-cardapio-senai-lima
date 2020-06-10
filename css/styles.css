@@ -1,0 +1,290 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  vertical-align:baseline;
+  list-style:none;
+  border:0;        
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Ubuntu', sans-serif;
+  background-color:white;
+}
+.linha{
+  width: 960px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 5px 0px;
+}
+.coluna{
+  padding: 0px 10px;
+  /* Flutuação  */
+  float: left;
+}
+.cabecalho{
+  background-color: #757575;
+  border-bottom: solid 6px black;
+  height: 100px;
+  box-sizing: content-box;    
+}
+.logo{
+  display: inline-block;
+  height: 140px;
+  width: 160px;
+}
+/* .logo img{
+  height: 100%;
+ 
+}  */
+.menu-toggle{
+  float: right;
+  color: white;
+  background-color: #757575;
+  border: solid 1px white;
+  border-radius: 5px;
+  height: 40px;
+  padding: 10px 20px;
+  margin: 20px 15px;
+ 
+}
+.menu{
+  display: inline-block;
+  vertical-align: top;
+  height: 80px;
+  padding: 25px;
+}
+.menu li{
+  display: inline-table;
+  margin: 12px;
+  margin-right: 80px;
+}
+.cabecalho a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  
+}
+.menu a{
+  padding: 15px;
+  background-color: #757575;
+  border-radius: 10px;
+}
+.autenticacao{
+  float: right;
+  height: 80px;
+  padding: 25px;
+}
+.menu a:hover,
+.menu a.selected{
+  background-color: #ffffff;
+  color: black;
+}
+.botao{
+  border-radius: 30px;
+  padding: 10px 25px;
+  margin: 10px;
+  transition-duration: 0.5s;
+}
+ 
+.botao:hover{
+  background-color: #ffa500;
+  color: white;
+}
+.destaque{
+  background: #ffa500;
+  color: white;
+}
+@media(min-width: 679px){
+  .menu-toggle{
+      display: none;
+  }
+}
+@media(max-width: 680px){
+  .menu{
+      display: none;
+  }
+}
+ 
+@media(max-width: 910px){
+  .autenticacao{
+      display: none;
+  }
+}
+.menu a:houver{
+  
+  background-color: #ffa500;
+  color: black;
+}
+.flex-container{
+  display: flex;
+  height: 200px;
+  width: 200px;
+  justify-content: center;
+  flex-direction: column;
+  background-color:#ffa500;
+  margin-top: 50px;
+  margin-left: 40px;
+  padding: 20px;
+}
+.item img{
+  height: 200px;
+  width: 200px;
+  position: relative;
+}
+.item span{
+  text-align: center;
+  margin-left: 40px;
+}
+.item button{
+  border-radius: 20px;
+  background-color: white;
+  
+}
+img .lobo{
+  margin-left: 500;
+}
+.titulo{
+  margin-top: 15px;
+  color: black;
+  position: relative;
+  text-align: center;      
+  font-size: 35px;
+  text-decoration: underline orange;  
+}
+/* a{  
+  background-color: #757575;
+  border-radius: 10px;
+} */
+#barca img{ 
+  position: relative;  
+  margin-left: 15px;
+  margin-top: 40px;
+  width: 360px;
+  height: 190px;
+}
+#barca h3{
+  position: relative;  
+  text-align: center;
+  right: 430px;
+  margin-top: 1px;
+  font-size: 23px;
+}
+#barca h1{
+  position: relative;
+  margin-left: 140px;
+  margin-top: 2px;
+  font-size: 28px;
+  color: red;  
+}
+#combo img{
+  position: absolute;
+  left: 490px;
+  top: 190px;
+  width: 290px;
+  height: 230px;
+}
+#combo h3{
+  position: absolute;  
+  text-align: center;
+  left: 460px;
+  top: 420px;
+  font-size: 23px;
+  margin-left: 10px;
+}
+#combo h1{
+  position: absolute;
+  left: 580px;
+  top: 470px;
+  font-size: 28px;
+  color: red;
+}
+#combosab img{
+  position: absolute;
+  left: 900px;
+  top: 120px;
+  width: 420px;
+  height: 320px;
+}
+#combosab h3{
+  position: absolute;  
+  text-align: center;
+  right: 25px;
+  top: 410px;
+  font-size: 21px;
+  line-height: 22px;
+}
+#combosab h1{
+  position: absolute;
+  right: 135px;
+  top: 470px;
+  font-size: 28px;
+  color: red;
+}
+#casquinha img{
+  position: relative;    
+  left: 0px;
+  top: 18px;
+  width: 380px;
+  height: 280px;
+}
+#casquinha h3{
+  position: relative;
+  font-size: 22px;
+  text-align: center;
+  right: 446px;
+}
+#casquinha h1{
+  position: relative;
+  right: 450px;
+  top: 0px;
+  font-size: 28px;
+  color: red;
+  text-align: center;
+}
+#pudim img{
+  position: absolute;
+  text-align: center; 
+  left: 410px;
+  top: 550px;
+  width: 470px;
+  height: 270px;
+}
+#pudim h3{
+  position: absolute;
+  left: 570px;
+  top: 810px;
+  font-size: 23px;
+}
+#pudim h1{
+  position: absolute;
+  left: 500px;
+  top: 840px;
+  font-size: 28px;
+  color: red;
+}
+#batata img{
+  position: absolute;
+  left: 850px;
+  top: 550px;
+  width: 490px;
+  height: 270px;
+}
+#batata h3{
+  position: absolute;
+  text-align: center;
+  left: 870px;
+  top: 790px;
+  font-size: 23px;
+}
+#batata h1{
+  position: absolute;
+  right: 55px;
+  top: 840px;
+  font-size: 28px;
+  color: red;
+}
