@@ -6,7 +6,7 @@
   vertical-align:baseline;
   list-style:none;
   border:0;        
-  box-sizing: border-box;
+  box-sizing: border-box;  
 }
 body{
   margin: 0;
@@ -205,10 +205,10 @@ img .lobo{
 }
 #combosab img{
   position: absolute;
-  left: 900px;
-  top: 120px;
-  width: 420px;
-  height: 320px;
+  left: 880px;
+  top: 155px;
+  width: 360px;
+  height: 260px;
 }
 #combosab h3{
   position: absolute;  
@@ -269,15 +269,15 @@ img .lobo{
 }
 #batata img{
   position: absolute;
-  left: 850px;
-  top: 550px;
-  width: 490px;
-  height: 270px;
+  left: 860px;
+  top: 580px;
+  width: 420px;
+  height: 200px;
 }
 #batata h3{
   position: absolute;
   text-align: center;
-  left: 870px;
+  left: 860px;
   top: 790px;
   font-size: 23px;
 }
