@@ -27,7 +27,7 @@ body{
   float: left;
 }
 .cabecalho{
-  background-color: #757575;
+  background-color: black;
   border-bottom: solid 6px black;
   height: 100px;
   box-sizing: content-box;    
@@ -71,7 +71,6 @@ body{
 }
 .menu a{
   padding: 15px;
-  background-color: #757575;
   border-radius: 10px;
 }
 .autenticacao{
@@ -91,14 +90,6 @@ body{
   transition-duration: 0.5s;
 }
  
-.botao:hover{
-  background-color: #ffa500;
-  color: white;
-}
-.destaque{
-  background: #ffa500;
-  color: white;
-}
 @media(min-width: 679px){
   .menu-toggle{
       display: none;
@@ -115,22 +106,8 @@ body{
       display: none;
   }
 }
-.menu a:houver{
-  
-  background-color: #ffa500;
-  color: black;
-}
-.flex-container{
-  display: flex;
-  height: 200px;
-  width: 200px;
-  justify-content: center;
-  flex-direction: column;
-  background-color:#ffa500;
-  margin-top: 50px;
-  margin-left: 40px;
-  padding: 20px;
-}
+
+
 .item img{
   height: 200px;
   width: 200px;
