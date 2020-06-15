@@ -24,11 +24,7 @@ body{
   float: left;
 }
 .cabecalho{
-<<<<<<< HEAD:Style.CSS
   background-color: #000000;
-=======
-  background-color: black;
->>>>>>> 4e465279e1ae2380500c1778c61c8644fc7d1380:bebidas.css
   border-bottom: solid 6px black;
   height: 100px;
   box-sizing: content-box;    
@@ -38,7 +34,6 @@ body{
   height: 140px;
   width: 140px;
 }
-<<<<<<< HEAD:Style.CSS
 /* .logo img{
   height: 100%;
  
@@ -54,9 +49,6 @@ body{
   margin: 20px 15px;
  
 }
-=======
-
->>>>>>> 4e465279e1ae2380500c1778c61c8644fc7d1380:bebidas.css
 .menu{
   display: inline-block;
   vertical-align: top;
@@ -76,10 +68,7 @@ body{
 }
 .menu a{
   padding: 15px;
-<<<<<<< HEAD:Style.CSS
   background-color: #000000;
-=======
->>>>>>> 4e465279e1ae2380500c1778c61c8644fc7d1380:bebidas.css
   border-radius: 10px;
   
 }
