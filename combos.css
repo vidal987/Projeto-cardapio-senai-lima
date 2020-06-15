@@ -1,5 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+    
 *{
   margin: 0px;
   padding: 0px;
@@ -70,7 +71,6 @@ body{
   
 }
 .menu a{
-  padding: 15px;
   border-radius: 10px;
 }
 .autenticacao{
@@ -133,28 +133,26 @@ img .lobo{
   font-size: 35px;
   text-decoration: underline orange;  
 }
-/* a{  
-  background-color: #757575;
-  border-radius: 10px;
-} */
 #barca img{ 
-  position: relative;  
+  position: absolute;  
   margin-left: 15px;
   margin-top: 40px;
   width: 360px;
   height: 190px;
 }
 #barca h3{
-  position: relative;  
+  position: absolute;  
   text-align: center;
-  right: 430px;
+  top: 400px;
+  left: 50px;
   margin-top: 1px;
   font-size: 23px;
 }
 #barca h1{
-  position: relative;
+  position: absolute;
   margin-left: 140px;
   margin-top: 2px;
+  top: 470px;
   font-size: 28px;
   color: red;  
 }
@@ -188,37 +186,38 @@ img .lobo{
   height: 260px;
 }
 #combosab h3{
-  position: absolute;  
+  position: absolute; 
   text-align: center;
-  right: 25px;
+  margin-left: 910px;
   top: 410px;
   font-size: 21px;
   line-height: 22px;
 }
 #combosab h1{
   position: absolute;
-  right: 135px;
+  margin-left: 1020px;
   top: 470px;
   font-size: 28px;
   color: red;
 }
 #casquinha img{
-  position: relative;    
+  position: absolute;    
   left: 0px;
-  top: 18px;
+  top: 530px;
   width: 380px;
   height: 280px;
 }
 #casquinha h3{
-  position: relative;
+  position: absolute;
   font-size: 22px;
   text-align: center;
-  right: 446px;
+  left: 15px;
+  top: 790px;
 }
 #casquinha h1{
-  position: relative;
-  right: 450px;
-  top: 0px;
+  position: absolute;
+  top: 840px;
+  left: 48px;
   font-size: 28px;
   color: red;
   text-align: center;
@@ -260,7 +259,7 @@ img .lobo{
 }
 #batata h1{
   position: absolute;
-  right: 55px;
+  margin-left: 920px;
   top: 840px;
   font-size: 28px;
   color: red;
