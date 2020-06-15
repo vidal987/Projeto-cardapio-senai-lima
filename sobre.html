@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sobre.css">    
+    <title>Sobre</title>
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <div class="logo">
+        <a href="#inicio">
+          <img class="logo" src="logo.png" alt="">
+  
+        </a>
+      </div>
+  
+      <button class="menu.toggle">
+        <i class="fa fa-lg fa-bars"></i>
+      </button>
+  
+      <nav class="menu">
+        <ul>
+          <li>
+              <a href="index.html">Início</a>
+          </li>
+          <li>
+              <a href="#section1">Contato</a>
+          </li>
+          <li>
+              <a href="#section2">Localização</a>
+          </li>
+          <li>
+              <a href="#section3">Dúvidas</a>
+          </li>
+      </ul>
+      </nav>
+  
+    </header>
+  
+      <div id="section1">
+          <h2> Precisa falar conosco? Ligue em um de nossos telefones </h2>
+          <img class="fonefoto" src="alo.png" alt="">
+          <h2>Telefone móvel: 4874-9251</h2>
+          <h2>WhatsApp: (11) 9954-8312</h2>
+      </div>
+  
+      <div id="section2">
+          <h2> Localização da hamburgueria </h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14628.463767461177!2d-46.6551530981983!3d-23.56427905773379!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb36f532c0f310e90!2sSenai%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1591712925011!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+  
+      <div id="section3">
+          <h2> Possui alguma dúvida? Envie-a por meio deste formulário! </h2>
+          <div class="contact-form">
+            <form id="contact-form" method="post" action="">
+              <input name="nome" type="text" class="form-control" placeholder="Seu nome" required=""><br>
+              <input name="email" type="email" class="form-control" placeholder="Seu E-mail" required=""><br>
+              <textarea name="mensagem" class="form-control" placeholder="Mensagem" rows="4" required></textarea><br>
+              <input type="submit" class="form-control submit" value="ENVIAR MENSAGEM">
+            </form>
+      </div>
+      </div>
+  </body>
+</html>

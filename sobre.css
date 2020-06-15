@@ -1,0 +1,176 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.linha{
+width: 960px;
+margin: 0 auto;
+overflow: auto;
+padding: 5px 0px;
+}
+.coluna{
+padding: 0px 10px;
+/* Flutuação  */
+float: left;
+}
+.cabecalho{
+background-color: #757575;
+border-bottom: solid 6px rgb(255, 255, 255);
+height: 100px;
+box-sizing: content-box;    
+}
+.logo{
+display: inline-block;
+height: 140px;
+width: 140px;
+}
+
+.menu-toggle{
+float: right;
+color: #ffa500;
+background-color: #757575;
+border: solid 1px white;
+border-radius: 5px;
+height: 40px;
+padding: 10px 20px;
+margin: 20px 15px;
+
+}
+.menu{
+align-items: center;
+text-align: center;
+display: inline-block;
+vertical-align: top;
+height: 80px;
+padding: 25px;
+}
+.menu li{
+display: inline-table;
+margin: 12px;
+margin-right: 80px;
+}
+.cabecalho a{
+text-decoration: none;
+color: white;
+font-size: 1.3em;
+
+}
+
+.menu a:hover,
+.menu a.selected{
+background-color: #ffffff;
+color: black;
+}
+.botao{
+border-radius: 30px;
+padding: 10px 25px;
+margin: 10px;
+transition-duration: 0.5s;
+}
+
+.botao:hover{
+background-color: #ffa500;
+color: white;
+}
+.destaque{
+background: #ffa500;
+color: white;
+}
+@media(min-width: 679px){
+.menu-toggle{
+    display: none;
+}
+}
+@media(max-width: 680px){
+.menu{
+    display: none;
+}
+}
+
+@media(max-width: 910px){
+.autenticacao{
+    display: none;
+}
+}
+.menu a:houver{
+
+background-color: #ffa500;
+color: black;
+}
+#section1{
+  height: 900px;
+  background-color: #000000;
+  display: inline-block;
+  width: 100%
+}
+
+.fonefoto{
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#section2{
+  height: 900px;
+  background-color: #ff1f00;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+#section3{
+  height: 900px;
+  background-color: #80b8ff;
+  display: inline-block;
+  width: 100%;
+}
+
+h2{
+  margin: 100px;
+  text-align: center;
+  padding: 0;
+  color: #fff;
+}
+
+.contact-form{
+  text-align: center;
+}
+
+form{
+  margin-top: 80px;
+  transition: all 4s  ease-in-out;
+}
+
+.form-control{
+  width: 600px;
+  background:transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input{
+  height: 45px;
+  
+}
+
+form .submit{
+  background: #ff5722;
+  border-color: transparent;
+  color:#fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+form .submit:hover{
+  background-color: #f44336;
+  cursor:pointer;
+}

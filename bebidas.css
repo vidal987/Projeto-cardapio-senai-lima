@@ -24,7 +24,11 @@ body{
   float: left;
 }
 .cabecalho{
+<<<<<<< HEAD:Style.CSS
   background-color: #000000;
+=======
+  background-color: black;
+>>>>>>> 4e465279e1ae2380500c1778c61c8644fc7d1380:bebidas.css
   border-bottom: solid 6px black;
   height: 100px;
   box-sizing: content-box;    
@@ -34,6 +38,7 @@ body{
   height: 140px;
   width: 140px;
 }
+<<<<<<< HEAD:Style.CSS
 /* .logo img{
   height: 100%;
  
@@ -49,6 +54,9 @@ body{
   margin: 20px 15px;
  
 }
+=======
+
+>>>>>>> 4e465279e1ae2380500c1778c61c8644fc7d1380:bebidas.css
 .menu{
   display: inline-block;
   vertical-align: top;
@@ -68,7 +76,10 @@ body{
 }
 .menu a{
   padding: 15px;
+<<<<<<< HEAD:Style.CSS
   background-color: #000000;
+=======
+>>>>>>> 4e465279e1ae2380500c1778c61c8644fc7d1380:bebidas.css
   border-radius: 10px;
   
 }
@@ -82,21 +93,7 @@ body{
   background-color: #ffffff;
   color: black;
 }
-.botao{
-  border-radius: 30px;
-  padding: 10px 25px;
-  margin: 10px;
-  transition-duration: 0.5s;
-}
- 
-.botao:hover{
-  background-color: #ffa500;
-  color: white;
-}
-.destaque{
-  background: #ffa500;
-  color: white;
-}
+
 @media(min-width: 679px){
   .menu-toggle{
       display: none;
@@ -113,22 +110,7 @@ body{
       display: none;
   }
 }
-.menu a:houver{
-  
-  background-color: #ffa500;
-  color: black;
-}
-.flex-container{
-  display: flex;
-  height: 200px;
-  width: 200px;
-  justify-content: center;
-  flex-direction: column;
-  background-color:#ffa500;
-  margin-top: 50px;
-  margin-left: 40px;
-  padding: 20px;
-}
+
 .item img{
   height: 200px;
   width: 200px;
