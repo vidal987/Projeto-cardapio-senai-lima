@@ -24,7 +24,7 @@ body{
   float: left;
 }
 .cabecalho{
-  background-color: #757575;
+  background-color: #000000;
   border-bottom: solid 6px black;
   height: 100px;
   box-sizing: content-box;    
@@ -41,7 +41,7 @@ body{
 .menu-toggle{
   float: right;
   color: #ffa500;
-  background-color: #757575;
+  background-color: #000000;
   border: solid 1px white;
   border-radius: 5px;
   height: 40px;
@@ -68,7 +68,7 @@ body{
 }
 .menu a{
   padding: 15px;
-  background-color: #757575;
+  background-color: #000000;
   border-radius: 10px;
   
 }
