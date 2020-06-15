@@ -1,83 +1,63 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
+<head>
+    <title>Página do Site</title>
+<link rel ="stylesheet" href="Style2.css">
+</head>
+<body>
+  <header class="cabecalho">
+    <div class="logo">
+      <a href="#inicio">
+        <img class="logo" src="logo.png" alt="">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">    
-    <title>PROMOÇÕES & COMBOS</title>
-  </head>
+      </a>
+    </div>
 
-  <body>
-    <header class="cabecalho">
-      <div class="logo">
-        <p href="#inicio">
-          <img class="logo" src="img/logo.png" alt="Logo">
-        </p>
-      </div>
+    <button class="menu.toggle">
+      <i class="fa fa-lg fa-bars"></i>
+    </button>
 
-      <button class="menu.toggle">
-        <i class="fa fa-lg fa-bars"></i>
-      </button>
+    <nav class="menu">
+      <ul>
+        <li>
+            <a href="#section0">Início</a>
+        </li>
+        <li>
+            <a href="#section1">Contato</a>
+        </li>
+        <li>
+            <a href="#section2">Localização</a>
+        </li>
+        <li>
+            <a href="#section3">Dúvidas</a>
+        </li>
+    </ul>
+    </nav>
 
-      <nav class="menu">
-        <ul>
-          <li>
-            <a href="#inicio">Início</a>
-          </li>
-          <li>
-            <a href="#cardapio">Cardápio</a>
-          </li>
-          <li>
-            <a href="#sobre">Sobre</a>
-          </li>
-          <li>
-            <a href="#promocoes">Promoções & Combos</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <h1 class="titulo">PROMOÇÕES & COMBOS</h1>
+  </header>
 
-    <main>
-      <div id="barca"></tr>
-        <img src="img/barca.png" alt="Barca">
-        <h3>BARCA COMBO
-          <br>2 LANCHES, BATATA(GG), <br>CALABRESA e MOLHOS</h3>
-        <h1>R$28,99</h1>
-      </div>
+    <div id="section1">
+        <h2> Precisa falar conosco? Ligue em um de nossos telefones </h2>
+        <img class="fonefoto" src="alo.png" alt="">
+        <h2>Telefone móvel: 4874-9251</h2>
+        <h2>WhatsApp: (11) 9954-8312</h2>
+    </div>
 
-      <div id="casquinha">
-        <img src="img/casquinha.png" alt="Casquinha">
-          <h3>CASQUINHA - SABORES:
-            <br>BAUNILHA, CHOCOLATE ou MISTA</h3>
-            <h1>PROMOÇÃO R$0,99</h1>
-      </div>
+    <div id="section2">
+        <h2> Localização da hamburgueria </h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14628.463767461177!2d-46.6551530981983!3d-23.56427905773379!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb36f532c0f310e90!2sSenai%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1591712925011!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
 
-      <div id="combo">
-        <img src="img/combo.png" alt="Combo">
-          <h3>COMBO
-            <br>X-SALADA, REFRI e BATATA(M)</h3>    
-            <h1>R$19,99</h1>
-      </div>
-
-      <div id="pudim">
-        <img src="img/pudim.png" alt="Sobremesa">
-          <h3>MINI PUDIM</h3>
-          <h1>PROMOÇÃO - R$6,99</h1>
-      </div>  
-
-      <div id="combosab">
-        <img src="img/combo2.png" alt="ComboSábado">
-          <h3>COMBO DO SABADÃO<br>BURGUER COM CHIPS + SUCO(G) <br>+ BATATA(M) + PASTEL DE BELÉM</h3>
-          <h1>R$29,99</h1>
-      </div>
-
-      <div id="batata">
-        <img src="img/batata.png" alt="BatataCheddar">
-          <h3>BATATA SUPER CHEDDAR<br>BATATA(G) COM CHEDDAR E BACON</h3>
-          <h1>PROMOÇÃO - R$11,99</h1>
-      </div>
-    </main>
-  </body>
+    <div id="section3">
+        <h2> Possui alguma dúvida? Envie-a por meio deste formulário! </h2>
+        <div class="contact-form">
+          <form id="contact-form" method="post" action="">
+            <input name="nome" type="text" class="form-control" placeholder="Seu nome" required=""><br>
+            <input name="email" type="email" class="form-control" placeholder="Seu E-mail" required=""><br>
+            <textarea name="mensagem" class="form-control" placeholder="Mensagem" rows="4" required></textarea><br>
+            <input type="submit" class="form-control submit" value="ENVIAR MENSAGEM">
+          </form>
+    </div>
+    </div>
+</body>
 </html>
